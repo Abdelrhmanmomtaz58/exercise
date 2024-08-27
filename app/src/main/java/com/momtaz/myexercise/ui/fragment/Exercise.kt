@@ -1,13 +1,13 @@
-package com.momtaz.myexercise
+package com.momtaz.myexercise.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.momtaz.myexercise.R
 
-class Day : Fragment() {
-
+class Exercise : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +18,7 @@ class Day : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_day, container, false)
+        return inflater.inflate(R.layout.fragment_exercise, container, false)
     }
 
 
